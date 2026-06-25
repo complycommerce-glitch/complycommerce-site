@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ComplyCommerce — Conformité GPSR pour Vendeurs E-commerce | Guide Complet</title>
+  <meta name="description" content="Vendez légalement en Europe. Guides GPSR pratiques pour vendeurs Amazon, Etsy, Shopify. Checklist gratuite, kit de conformité, templates. Conformité GPSR expliquée sans jargon." />
+  <meta name="keywords" content="GPSR conformité, GPSR e-commerce, GPSR Amazon, GPSR Etsy, règlement UE 2023/988, conformité vendeur en ligne, GPSR Suisse, checklist GPSR, déclaration de conformité" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="ComplyCommerce" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ComplyCommerce — Conformité GPSR pour Vendeurs E-commerce" />
+  <meta property="og:description" content="Vendez légalement en Europe sans vous noyer dans le juridique. Guides GPSR clairs, checklist gratuite, templates prêts à l'emploi." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://complycommerce.ch" />
+  <meta property="og:image" content="https://complycommerce.ch/og-image.png" />
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ComplyCommerce",
+    "url": "https://complycommerce.ch",
+    "description": "Ressources de conformité GPSR pour vendeurs e-commerce francophones",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Checklist GPSR Gratuite",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "url": "https://compliance8.gumroad.com"
+      },
+      {
+        "@type": "Offer",
+        "name": "Kit Complet de Conformité GPSR",
+        "price": "27",
+        "priceCurrency": "EUR",
+        "url": "https://compliance8.gumroad.com"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --navy:    #0D1B2A;
+      --ink:     #1A2B3C;
+      --amber:   #E8A020;
+      --amber-light: #FBF0D9;
+      --red:     #C0392B;
+      --green:   #1A7A4A;
+      --white:   #FFFFFF;
+      --grey-50: #F7F8FA;
+      --grey-100:#EEF0F4;
+      --grey-300:#C4C9D4;
+      --grey-600:#6B7280;
+      --text:    #1A2B3C;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Syne', sans-serif;
+      line-height: 1.15;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    img { max-width: 100%; display: block; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--navy);
+      padding: 0 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      box-shadow: 0 1px 0 rgba(255,255,255,0.08);
+    }
+
+    .nav-logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: var(--white);
+      letter-spacing: -0.02em;
+    }
+
+    .nav-logo span { color: var(--amber); }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--white); }
+
+    .nav-cta {
+      background: var(--amber);
+      color: var(--navy) !important;
+      padding: 0.5rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 600 !important;
+      font-size: 0.875rem;
+      transition: opacity 0.2s;
+    }
+
+    .nav-cta:hover { opacity: 0.9; }
+
+    /* ─── HERO ─── */
+    .hero {
+      background: var(--navy);
+      padding: 5rem 5vw 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(232,160,32,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(232,160,32,0.15);
+      border: 1px solid rgba(232,160,32,0.3);
+      color: var(--amber);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.4rem 0.9rem;
+      border-radius: 100px;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      color: var(--white);
+      max-width: 780px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero h1 em {
+      color: var(--amber);
+      font-style: normal;
+    }
+
+    .hero-sub {
+      color: rgba(255,255,255,0.65);
+      font-size: 1.125rem;
+      max-width: 560px;
+      margin-bottom: 2.5rem;
+      line-height: 1.7;
+    }
+
+    .hero-ctas {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn-primary {
+      background: var(--amber);
+      color: var(--navy);
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.875rem 2rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(232,160,32,0.35);
+    }
+
+    .btn-ghost {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.875rem 1.5rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px;
+      transition: border-color 0.2s, color 0.2s;
+      display: inline-block;
+    }
+
+    .btn-ghost:hover {
+      border-color: rgba(255,255,255,0.5);
+      color: var(--white);
+    }
+
+    /* ─── ALERT BAND ─── */
+    .alert-band {
+      background: #FEF3CD;
+      border-top: 3px solid var(--amber);
+      border-bottom: 1px solid #F5D78E;
+      padding: 1rem 5vw;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.9rem;
+      color: #7A5100;
+    }
+
+    .alert-band strong { font-weight: 600; }
+
+    /* ─── SECTION BASE ─── */
+    section { padding: 5rem 5vw; }
+
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+      max-width: 640px;
+    }
+
+    .section-sub {
+      color: var(--grey-600);
+      font-size: 1rem;
+      max-width: 540px;
+      line-height: 1.7;
+      margin-bottom: 3rem;
+    }
+
+    /* ─── RISK SECTION ─── */
+    .risk-section { background: var(--grey-50); }
+
+    .risk-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    .risk-card {
+      background: var(--white);
+      border: 1px solid var(--grey-100);
+      border-radius: 12px;
+      padding: 1.75rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .risk-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+    }
+
+    .risk-card.danger::before { background: var(--red); }
+    .risk-card.warning::before { background: var(--amber); }
+    .risk-card.ok::before { background: var(--green); }
+
+    .risk-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .risk-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .risk-card p {
+      font-size: 0.875rem;
+      color: var(--grey-600);
+      line-height: 1.6;
+    }
+
+    /* ─── PRODUCTS ─── */
+    .products-section { background: var(--white); }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .product-card {
+      border: 2px solid var(--grey-100);
+      border-radius: 16px;
+      padding: 2rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-card:hover {
+      border-color: var(--amber);
+      box-shadow: 0 8px 32px rgba(232,160,32,0.1);
+    }
+
+    .product-card.featured {
+      border-color: var(--amber);
+      background: linear-gradient(135deg, #FFFBF0 0%, var(--white) 100%);
+      position: relative;
+    }
+
+    .product-badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--amber);
+      color: var(--navy);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.9rem;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+
+    .product-type {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--grey-600);
+      margin-bottom: 0.75rem;
+    }
+
+    .product-card h3 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    .product-card p {
+      font-size: 0.9rem;
+      color: var(--grey-600);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      flex: 1;
+    }
+
+    .product-includes {
+      list-style: none;
+      margin-bottom: 1.75rem;
+    }
+
+    .product-includes li {
+      font-size: 0.85rem;
+      padding: 0.35rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      color: var(--text);
+    }
+
+    .product-includes li::before {
+      content: '✓';
+      color: var(--green);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    .product-price {
+      font-family: 'Syne', sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 1.25rem;
+    }
+
+    .product-price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--grey-600);
+    }
+
+    .btn-product {
+      display: block;
+      text-align: center;
+      padding: 0.875rem;
+      border-radius: 8px;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+      cursor: pointer;
+    }
+
+    .btn-product.primary {
+      background: var(--amber);
+      color: var(--navy);
+    }
+
+    .btn-product.primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(232,160,32,0.3);
+    }
+
+    .btn-product.secondary {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .btn-product.secondary:hover { opacity: 0.85; }
+
+    .btn-product.outline {
+      border: 2px solid var(--navy);
+      color: var(--navy);
+      background: transparent;
+    }
+
+    .btn-product.outline:hover { background: var(--grey-50); }
+
+    /* ─── WHO SECTION ─── */
+    .who-section { background: var(--navy); color: var(--white); }
+
+    .who-section .section-title { color: var(--white); max-width: 100%; }
+    .who-section .section-sub { color: rgba(255,255,255,0.6); }
+
+    .who-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .who-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .who-card .emoji { font-size: 2rem; margin-bottom: 0.75rem; }
+
+    .who-card h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+
+    .who-card p {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* ─── BLOG ─── */
+    .blog-section { background: var(--grey-50); }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .blog-card {
+      background: var(--white);
+      border: 1px solid var(--grey-100);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-card:hover { box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+
+    .blog-card-header {
+      background: var(--navy);
+      padding: 1.5rem;
+      min-height: 120px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .blog-card-cat {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--amber);
+    }
+
+    .blog-card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
+
+    .blog-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+      line-height: 1.4;
+    }
+
+    .blog-card p {
+      font-size: 0.85rem;
+      color: var(--grey-600);
+      line-height: 1.6;
+      flex: 1;
+      margin-bottom: 1rem;
+    }
+
+    .blog-card-meta {
+      font-size: 0.75rem;
+      color: var(--grey-300);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .read-more {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--amber);
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: 0.75rem;
+      transition: gap 0.15s;
+    }
+
+    .read-more:hover { gap: 0.6rem; }
+
+    /* ─── FAQ ─── */
+    .faq-section { background: var(--white); }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .faq-item {
+      border: 1px solid var(--grey-100);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .faq-item h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+      display: flex;
+      gap: 0.6rem;
+      align-items: flex-start;
+    }
+
+    .faq-item h4::before {
+      content: 'Q';
+      background: var(--amber);
+      color: var(--navy);
+      font-size: 0.7rem;
+      font-weight: 800;
+      padding: 0.2rem 0.45rem;
+      border-radius: 4px;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+
+    .faq-item p {
+      font-size: 0.875rem;
+      color: var(--grey-600);
+      line-height: 1.65;
+      padding-left: 1.8rem;
+    }
+
+    /* ─── CTA FINAL ─── */
+    .cta-section {
+      background: var(--navy);
+      text-align: center;
+      padding: 6rem 5vw;
+    }
+
+    .cta-section h2 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      color: var(--white);
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+
+    .cta-section h2 em {
+      color: var(--amber);
+      font-style: normal;
+    }
+
+    .cta-section p {
+      color: rgba(255,255,255,0.6);
+      font-size: 1rem;
+      max-width: 480px;
+      margin: 0 auto 2.5rem;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: #080F18;
+      color: rgba(255,255,255,0.4);
+      padding: 2.5rem 5vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.8rem;
+    }
+
+    footer a { color: rgba(255,255,255,0.4); transition: color 0.2s; }
+    footer a:hover { color: var(--white); }
+
+    .footer-nav { display: flex; gap: 1.5rem; }
+
+    /* ─── MOBILE ─── */
+    @media (max-width: 640px) {
+      nav { padding: 0 1.25rem; }
+      .nav-links { display: none; }
+      section { padding: 3.5rem 1.25rem; }
+      .hero { padding: 3rem 1.25rem; }
+      .hero-ctas { flex-direction: column; align-items: flex-start; }
+      .faq-grid { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ─── NAV ─── -->
+<nav aria-label="Navigation principale">
+  <a href="/" class="nav-logo">Comply<span>Commerce</span></a>
+  <ul class="nav-links">
+    <li><a href="#produits">Produits</a></li>
+    <li><a href="#blog">Blog GPSR</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="nav-cta">Checklist gratuite →</a></li>
+  </ul>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero-eyebrow">
+    ⚠️ GPSR · Règlement UE 2023/988 · En vigueur depuis le 13.12.2024
+  </div>
+  <h1 id="hero-heading">
+    Votre compte Amazon ou Etsy<br />
+    ne sera <em>pas</em> suspendu.
+  </h1>
+  <p class="hero-sub">
+    Le GPSR concerne tous les vendeurs de produits physiques en Europe — y compris depuis la Suisse. 
+    Nos guides pratiques vous donnent exactement ce qu'il faut faire, sans jargon juridique.
+  </p>
+  <div class="hero-ctas">
+    <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="btn-primary">
+      Télécharger la checklist gratuite
+    </a>
+    <a href="#produits" class="btn-ghost">
+      Voir tous les guides →
+    </a>
+  </div>
+</section>
+
+<!-- ─── ALERT BAND ─── -->
+<div class="alert-band" role="alert">
+  <span>🔴</span>
+  <span><strong>Mise à jour avril 2025 :</strong> Amazon supprime les listings non conformes sans préavis. Etsy a déployé un nouveau formulaire GPSR obligatoire. Êtes-vous à jour ?</span>
+</div>
+
+<!-- ─── RISQUES ─── -->
+<section class="risk-section" aria-labelledby="risk-title">
+  <p class="section-label">Pourquoi c'est urgent</p>
+  <h2 class="section-title" id="risk-title">Ce qui arrive aux vendeurs non conformes</h2>
+  <p class="section-sub">Depuis janvier 2025, les plateformes appliquent le GPSR sans avertissement préalable. Voici ce que risquent concrètement les vendeurs qui n'ont pas agi.</p>
+  <div class="risk-grid">
+    <div class="risk-card danger">
+      <div class="risk-icon">🚫</div>
+      <h3>Suspension de compte Amazon</h3>
+      <p>Amazon supprime les ASIN non conformes sous 7 jours et peut geler les fonds pendant 90 jours ou plus. Sans préavis automatique par e-mail.</p>
+    </div>
+    <div class="risk-card danger">
+      <div class="risk-icon">📛</div>
+      <h3>Listings Etsy retirés</h3>
+      <p>Etsy peut retirer vos annonces et suspendre votre boutique pour les acheteurs EU/NI si les informations GPSR sont absentes ou incomplètes.</p>
+    </div>
+    <div class="risk-card warning">
+      <div class="risk-icon">💶</div>
+      <h3>Amendes jusqu'à 4%</h3>
+      <p>Le règlement prévoit des sanctions à la discrétion des autorités nationales (DGCCRF en France). Jusqu'à 4% du chiffre d'affaires par infraction.</p>
+    </div>
+    <div class="risk-card ok">
+      <div class="risk-icon">✅</div>
+      <h3>La solution : 48 heures</h3>
+      <p>Avec les bons outils, la conformité GPSR de base se fait en 1 à 2 jours. Pas besoin d'un juriste à 500€/h — c'est ce qu'on vous donne ici.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PRODUITS ─── -->
+<section class="products-section" id="produits" aria-labelledby="products-title">
+  <p class="section-label">Nos ressources</p>
+  <h2 class="section-title" id="products-title">Choisissez votre niveau de conformité</h2>
+  <p class="section-sub">Trois ressources complémentaires, du diagnostic gratuit au kit complet prêt à déployer sur vos listings.</p>
+
+  <div class="products-grid">
+
+    <!-- FREE -->
+    <div class="product-card">
+      <div class="product-type">Gratuit — Lead magnet</div>
+      <h3>Checklist GPSR : Suis-je concerné ?</h3>
+      <p>10 questions pour savoir en 2 minutes si le Règlement UE 2023/988 s'applique à votre activité. Amazon, Etsy, Shopify, dropshipping.</p>
+      <ul class="product-includes">
+        <li>10 questions clés par type de vendeur</li>
+        <li>Résultat immédiat avec explication</li>
+        <li>Inclus : prochaines étapes selon votre profil</li>
+        <li>PDF téléchargeable, gratuit</li>
+      </ul>
+      <div class="product-price">0€ <span>— gratuit</span></div>
+      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="btn-product outline">
+        Télécharger gratuitement
+      </a>
+    </div>
+
+    <!-- PREMIUM GUIDE - FEATURED -->
+    <div class="product-card featured" style="position:relative;">
+      <div class="product-badge">⭐ Le plus populaire</div>
+      <div class="product-type">Guide Premium</div>
+      <h3>Votre compte ne sera pas bloqué — Guide Amazon & Etsy</h3>
+      <p>12 sections, tout ce qu'Amazon et Etsy vérifient concrètement, les 3 erreurs fatales, et les templates de réponse en cas d'alerte.</p>
+      <ul class="product-includes">
+        <li>Ce qu'Amazon vérifie champ par champ</li>
+        <li>Nouveau formulaire Etsy — avril 2025</li>
+        <li>Les 3 erreurs qui font suspendre les comptes</li>
+        <li>Templates de réponse Amazon prêts à envoyer</li>
+        <li>Section spéciale vendeurs Suisse</li>
+        <li>Mis à jour avril 2026</li>
+      </ul>
+      <div class="product-price">19€ <span>— accès immédiat</span></div>
+      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="btn-product primary">
+        Obtenir le guide →
+      </a>
+    </div>
+
+    <!-- KIT COMPLET -->
+    <div class="product-card">
+      <div class="product-type">Kit Complet</div>
+      <h3>Kit de Conformité GPSR — Templates + Checklists</h3>
+      <p>Le kit opérationnel complet : toutes les checklists par rôle, le template de Déclaration de Conformité, le dossier technique structuré.</p>
+      <ul class="product-includes">
+        <li>Checklist Fabricant (13 obligations)</li>
+        <li>Checklist Importateur & Distributeur</li>
+        <li>Template Déclaration de Conformité (.docx)</li>
+        <li>Structure Dossier Technique complète</li>
+        <li>Obligations par marketplace</li>
+        <li>Section Suisse + ressources officielles</li>
+      </ul>
+      <div class="product-price">27€ <span>— accès immédiat</span></div>
+      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="btn-product secondary">
+        Obtenir le kit →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── QUI ─── -->
+<section class="who-section" aria-labelledby="who-title">
+  <p class="section-label">Pour qui</p>
+  <h2 class="section-title" id="who-title">Si vous vendez des produits physiques en Europe, vous êtes concerné</h2>
+  <p class="section-sub">Peu importe votre pays, votre plateforme ou votre volume. Le GPSR suit le produit, pas votre adresse.</p>
+  <div class="who-grid">
+    <div class="who-card">
+      <div class="emoji">📦</div>
+      <h4>Vendeur Amazon FBA</h4>
+      <p>FBA, FBM, peu importe. Amazon vérifie tous les ASIN actifs.</p>
+    </div>
+    <div class="who-card">
+      <div class="emoji">🎨</div>
+      <h4>Créateur Etsy</h4>
+      <p>Fait main ou revendu — si ça livre en Europe, GPSR s'applique.</p>
+    </div>
+    <div class="who-card">
+      <div class="emoji">🔗</div>
+      <h4>Dropshipper</h4>
+      <p>Vous sourcez hors UE = vous êtes importateur au sens légal.</p>
+    </div>
+    <div class="who-card">
+      <div class="emoji">🛍️</div>
+      <h4>Boutique Shopify</h4>
+      <p>Ventes vers l'Europe depuis votre propre site : même règles.</p>
+    </div>
+    <div class="who-card">
+      <div class="emoji">🇨🇭</div>
+      <h4>Vendeur Suisse</h4>
+      <p>La Suisse n'est pas UE — mais si vous livrez en France ou Allemagne, GPSR vous concerne.</p>
+    </div>
+    <div class="who-card">
+      <div class="emoji">🏷️</div>
+      <h4>Marque propre</h4>
+      <p>Votre logo sur un produit tiers = vous devenez fabricant au sens du règlement.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── BLOG ─── -->
+<section class="blog-section" id="blog" aria-labelledby="blog-title">
+  <p class="section-label">Blog GPSR</p>
+  <h2 class="section-title" id="blog-title">Ce que personne ne vous dit sur le GPSR</h2>
+  <p class="section-sub">Analyses critiques, mises à jour réglementaires, pièges à éviter. Un regard sans langue de bois sur la conformité e-commerce.</p>
+
+  <div class="blog-grid">
+
+    <article class="blog-card">
+      <div class="blog-card-header">
+        <span class="blog-card-cat">Amazon · Analyse critique</span>
+      </div>
+      <div class="blog-card-body">
+        <h3>Les 3 erreurs GPSR qui ont fait suspendre des milliers de comptes Amazon en 2025</h3>
+        <p>Amazon n'envoie pas toujours l'e-mail d'avertissement. Voici les 3 erreurs documentées qui ont coûté des comptes entiers — et comment les éviter en 30 minutes.</p>
+        <div class="blog-card-meta">
+          <span>📅 Juin 2025</span>
+          <span>·</span>
+          <span>8 min de lecture</span>
+        </div>
+        <a href="blog/erreurs-gpsr-amazon-suspension.html" class="read-more">Lire l'article →</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-card-header">
+        <span class="blog-card-cat">Dropshipping · Risques</span>
+      </div>
+      <div class="blog-card-body">
+        <h3>Dropshipping et GPSR : vous êtes légalement responsable même si vous ne touchez jamais le produit</h3>
+        <p>La majorité des dropshippers ignorent qu'ils sont considérés comme importateurs au sens du règlement. Ce que ça implique concrètement pour votre activité.</p>
+        <div class="blog-card-meta">
+          <span>📅 Mai 2025</span>
+          <span>·</span>
+          <span>6 min de lecture</span>
+        </div>
+        <a href="blog/dropshipping-gpsr-responsabilite.html" class="read-more">Lire l'article →</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-card-header">
+        <span class="blog-card-cat">Suisse · Spécificités</span>
+      </div>
+      <div class="blog-card-body">
+        <h3>GPSR depuis la Suisse : ce que les vendeurs suisses ont mal compris (et ce que ça coûte)</h3>
+        <p>Non, le GPSR ne s'arrête pas à la frontière suisse. Voici les deux obligations supplémentaires que 90% des vendeurs suisses ignorent encore.</p>
+        <div class="blog-card-meta">
+          <span>📅 Avril 2025</span>
+          <span>·</span>
+          <span>7 min de lecture</span>
+        </div>
+        <a href="blog/gpsr-vendeurs-suisse.html" class="read-more">Lire l'article →</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-card-header">
+        <span class="blog-card-cat">Etsy · Mise à jour</span>
+      </div>
+      <div class="blog-card-body">
+        <h3>Nouveau formulaire GPSR Etsy (avril 2025) : ce qui a changé et ce que vous devez faire maintenant</h3>
+        <p>Etsy a déployé un nouveau formulaire GPSR en avril 2025. Analyse détaillée de ce qui est désormais obligatoire, champ par champ.</p>
+        <div class="blog-card-meta">
+          <span>📅 Avril 2025</span>
+          <span>·</span>
+          <span>5 min de lecture</span>
+        </div>
+        <a href="blog/nouveau-formulaire-gpsr-etsy-2025.html" class="read-more">Lire l'article →</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-card-header">
+        <span class="blog-card-cat">Juridique · Analyse</span>
+      </div>
+      <div class="blog-card-body">
+        <h3>GPSR vs Marquage CE : les vendeurs confondent les deux et se mettent en danger</h3>
+        <p>Ce ne sont pas les mêmes documents, les mêmes obligations, ni les mêmes conséquences. Une confusion qui peut coûter très cher.</p>
+        <div class="blog-card-meta">
+          <span>📅 Mars 2025</span>
+          <span>·</span>
+          <span>6 min de lecture</span>
+        </div>
+        <a href="blog/gpsr-vs-marquage-ce.html" class="read-more">Lire l'article →</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-card-header">
+        <span class="blog-card-cat">Personnes Responsable EU</span>
+      </div>
+      <div class="blog-card-body">
+        <h3>Personne Responsable EU : ce que ça coûte vraiment, et les arnaques à éviter</h3>
+        <p>Certains services facturent 1500€/an pour quelque chose qui peut coûter 0€ si vous êtes dans l'UE, ou 200€/an si vous êtes hors UE. Le vrai comparatif.</p>
+        <div class="blog-card-meta">
+          <span>📅 Février 2025</span>
+          <span>·</span>
+          <span>9 min de lecture</span>
+        </div>
+        <a href="blog/personne-responsable-eu-cout-comparatif.html" class="read-more">Lire l'article →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ─── FAQ ─── -->
+<section class="faq-section" id="faq" aria-labelledby="faq-title">
+  <p class="section-label">Questions fréquentes</p>
+  <h2 class="section-title" id="faq-title">Ce que les vendeurs demandent le plus</h2>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <h4>Le GPSR s'applique-t-il si je suis basé en Suisse ?</h4>
+      <p>Oui, dès que vous vendez à des clients dans l'Union Européenne. La Suisse n'est pas membre de l'UE, ce qui signifie deux obligations supplémentaires : désigner un mandataire EU et indiquer ses coordonnées sur chaque produit et listing.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Je vends uniquement sur Etsy, suis-je vraiment concerné ?</h4>
+      <p>Oui. Etsy a déployé en avril 2025 un nouveau formulaire GPSR obligatoire pour tous les listings vendus à des acheteurs EU et NI. Sans ces informations, vos articles peuvent être retirés.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Quelle est la différence entre le Kit et le Guide ?</h4>
+      <p>Le Guide (19€) explique les règles et ce que vérifient Amazon et Etsy — c'est le "quoi" et le "pourquoi". Le Kit (27€) vous donne les outils pour agir : templates, checklists opérationnelles, structure de dossier technique.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Ces guides remplacent-ils un conseil juridique ?</h4>
+      <p>Non. Ils vous aident à comprendre vos obligations et à préparer vos documents pour les cas standards. Pour des situations complexes (procédures de rappel actives, contentieux), consultez un juriste spécialisé.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Je fais du dropshipping depuis la Chine — suis-je concerné ?</h4>
+      <p>Oui, et c'est l'un des cas les plus exposés. En sourçant hors UE, vous êtes considéré comme importateur au sens du règlement, avec quasiment les mêmes obligations qu'un fabricant.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Les produits listés avant le 13 décembre 2024 sont-ils exemptés ?</h4>
+      <p>Partiellement. L'Art. 51 protège le produit physique déjà en stock avant cette date. Mais Amazon exige la mise à jour des informations sur TOUS les listings actifs, même anciens. Sur Etsy, les anciens listings sont exemptés selon leur Seller Handbook — mais la mise à jour reste fortement recommandée.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA FINAL ─── -->
+<section class="cta-section" aria-labelledby="cta-title">
+  <h2 id="cta-title">Commencez par le <em>diagnostic gratuit</em></h2>
+  <p>10 questions. 2 minutes. Vous saurez exactement si le GPSR vous concerne et par où commencer.</p>
+  <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="btn-primary" style="font-size:1.05rem; padding: 1rem 2.5rem;">
+    Télécharger la checklist gratuite →
+  </a>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div>
+    <strong style="color:rgba(255,255,255,0.7); font-family:'Syne',sans-serif;">ComplyCommerce</strong>
+    <span style="margin-left:1rem;">© 2025 — Ressources GPSR pour vendeurs e-commerce</span>
+  </div>
+  <nav class="footer-nav" aria-label="Navigation pied de page">
+    <a href="#produits">Produits</a>
+    <a href="#blog">Blog</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener">Gumroad</a>
+  </nav>
+</footer>
+
+</body>
+</html>
