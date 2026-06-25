@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les 3 erreurs GPSR qui ont suspendu des milliers de comptes Amazon en 2025 | ComplyCommerce</title>
+  <meta name="description" content="Amazon n'envoie pas toujours l'e-mail d'alerte GPSR. Voici les 3 erreurs documentées qui ont coûté des comptes Amazon entiers en 2025 — et comment les corriger en 30 minutes." />
+  <meta name="keywords" content="GPSR Amazon suspension compte, erreurs GPSR Amazon, conformité GPSR Amazon 2025, GPSR vendeur Amazon, ASIN supprimé GPSR" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://complycommerce.ch/blog/erreurs-gpsr-amazon-suspension.html" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Les 3 erreurs GPSR qui ont suspendu des milliers de comptes Amazon en 2025",
+    "datePublished": "2025-06-01",
+    "dateModified": "2025-06-15",
+    "author": { "@type": "Organization", "name": "ComplyCommerce" },
+    "publisher": { "@type": "Organization", "name": "ComplyCommerce", "url": "https://complycommerce.ch" },
+    "description": "Les 3 erreurs GPSR les plus courantes qui conduisent à la suspension de compte Amazon, documentées depuis janvier 2025."
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --navy: #0D1B2A; --ink: #1A2B3C; --amber: #E8A020;
+      --red: #C0392B; --green: #1A7A4A;
+      --grey-50: #F7F8FA; --grey-100: #EEF0F4;
+      --grey-300: #C4C9D4; --grey-600: #6B7280;
+      --white: #FFFFFF; --text: #1A2B3C;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    h1,h2,h3,h4 { font-family: 'Syne', sans-serif; line-height: 1.2; }
+    a { color: inherit; text-decoration: none; }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--navy); padding: 0 5vw;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.2rem; color: #fff; letter-spacing: -0.02em; }
+    .nav-logo span { color: var(--amber); }
+    .nav-cta { background: var(--amber); color: var(--navy); padding: 0.5rem 1.25rem; border-radius: 6px; font-weight: 600; font-size: 0.875rem; }
+
+    .article-header {
+      background: var(--navy); padding: 4rem 5vw 3rem;
+    }
+    .breadcrumb { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-bottom: 1.5rem; }
+    .breadcrumb a { color: rgba(255,255,255,0.4); }
+    .breadcrumb a:hover { color: var(--amber); }
+    .article-cat {
+      display: inline-block; background: rgba(232,160,32,0.15); border: 1px solid rgba(232,160,32,0.3);
+      color: var(--amber); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 0.3rem 0.8rem; border-radius: 100px; margin-bottom: 1rem;
+    }
+    .article-header h1 { font-size: clamp(1.6rem, 3.5vw, 2.6rem); color: #fff; font-weight: 800; letter-spacing: -0.03em; max-width: 780px; margin-bottom: 1rem; }
+    .article-meta { font-size: 0.8rem; color: rgba(255,255,255,0.4); display: flex; gap: 1rem; flex-wrap: wrap; }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 3rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3.5rem 5vw;
+      align-items: start;
+    }
+
+    .article-body { max-width: 680px; }
+
+    .article-body h2 {
+      font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em;
+      margin: 2.5rem 0 1rem; color: var(--navy);
+    }
+    .article-body h3 {
+      font-size: 1.1rem; font-weight: 700;
+      margin: 1.75rem 0 0.6rem; color: var(--navy);
+    }
+    .article-body p { font-size: 1rem; line-height: 1.75; margin-bottom: 1.2rem; color: #2C3E50; }
+    .article-body ul, .article-body ol { padding-left: 1.5rem; margin-bottom: 1.2rem; }
+    .article-body li { font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.4rem; color: #2C3E50; }
+    .article-body strong { font-weight: 600; color: var(--navy); }
+
+    .alert-box {
+      border-radius: 10px; padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0; border-left: 4px solid;
+    }
+    .alert-box.danger { background: #FDF2F2; border-color: var(--red); }
+    .alert-box.warning { background: #FEF9EE; border-color: var(--amber); }
+    .alert-box.success { background: #F0FBF5; border-color: var(--green); }
+    .alert-box .alert-title { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem; }
+    .alert-box.danger .alert-title { color: var(--red); }
+    .alert-box.warning .alert-title { color: #A07000; }
+    .alert-box.success .alert-title { color: var(--green); }
+    .alert-box p { margin: 0; font-size: 0.9rem; }
+
+    .error-number {
+      display: flex; align-items: center; gap: 1rem;
+      background: var(--navy); color: #fff;
+      border-radius: 12px; padding: 1.5rem;
+      margin: 2rem 0 1rem;
+    }
+    .error-number .num {
+      font-family: 'Syne', sans-serif; font-size: 3rem; font-weight: 800;
+      color: var(--amber); line-height: 1; flex-shrink: 0;
+    }
+    .error-number .label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); }
+    .error-number .title { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700; color: #fff; }
+
+    .fix-steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0; }
+    .fix-steps li {
+      counter-increment: step; position: relative;
+      padding: 0.6rem 0 0.6rem 3rem; font-size: 0.9rem;
+      border-bottom: 1px solid var(--grey-100);
+      color: #2C3E50;
+    }
+    .fix-steps li::before {
+      content: counter(step);
+      position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+      background: var(--amber); color: var(--navy);
+      font-family: 'Syne', sans-serif; font-weight: 800; font-size: 0.75rem;
+      width: 24px; height: 24px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* Sidebar */
+    .article-sidebar { position: sticky; top: 88px; }
+
+    .sidebar-card {
+      border-radius: 14px; overflow: hidden;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--grey-100);
+    }
+    .sidebar-card-header {
+      background: var(--amber); padding: 1.25rem 1.5rem;
+    }
+    .sidebar-card-header h3 { font-size: 1rem; font-weight: 800; color: var(--navy); }
+    .sidebar-card-header p { font-size: 0.8rem; color: rgba(13,27,42,0.7); margin-top: 0.25rem; }
+    .sidebar-card-body { padding: 1.5rem; background: #FFFBF0; }
+    .sidebar-card-body ul { list-style: none; margin-bottom: 1.25rem; }
+    .sidebar-card-body li { font-size: 0.85rem; padding: 0.3rem 0; display: flex; gap: 0.5rem; }
+    .sidebar-card-body li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .sidebar-btn {
+      display: block; text-align: center; background: var(--navy);
+      color: #fff; padding: 0.875rem; border-radius: 8px;
+      font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem;
+      transition: opacity 0.2s;
+    }
+    .sidebar-btn:hover { opacity: 0.85; }
+
+    .toc-card { background: var(--grey-50); border: 1px solid var(--grey-100); border-radius: 14px; padding: 1.5rem; }
+    .toc-card h4 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--grey-600); margin-bottom: 1rem; }
+    .toc-card ol { padding-left: 1.25rem; }
+    .toc-card li { font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .toc-card a { color: var(--ink); transition: color 0.2s; }
+    .toc-card a:hover { color: var(--amber); }
+
+    footer {
+      background: #080F18; color: rgba(255,255,255,0.4);
+      padding: 2rem 5vw; display: flex;
+      justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem; font-size: 0.8rem;
+      margin-top: 3rem;
+    }
+    footer a { color: rgba(255,255,255,0.4); }
+    footer a:hover { color: #fff; }
+
+    @media (max-width: 860px) {
+      .article-layout { grid-template-columns: 1fr; }
+      .article-sidebar { position: static; }
+    }
+    @media (max-width: 640px) {
+      nav { padding: 0 1.25rem; }
+      .article-header { padding: 2.5rem 1.25rem; }
+      .article-layout { padding: 2rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Comply<span>Commerce</span></a>
+  <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="nav-cta">Checklist gratuite →</a>
+</nav>
+
+<header class="article-header">
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a> › <a href="/#blog">Blog GPSR</a> › Article
+  </nav>
+  <span class="article-cat">Amazon · Analyse critique</span>
+  <h1>Les 3 erreurs GPSR qui ont suspendu des milliers de comptes Amazon en 2025</h1>
+  <div class="article-meta">
+    <span>📅 Publié le 1er juin 2025</span>
+    <span>·</span>
+    <span>🕐 8 min de lecture</span>
+    <span>·</span>
+    <span>Mis à jour le 15 juin 2025</span>
+  </div>
+</header>
+
+<div class="article-layout">
+
+  <article class="article-body">
+
+    <p>Depuis janvier 2025, Amazon a durci l'application du GPSR. Les vendeurs qui pensaient avoir quelques mois supplémentaires pour se mettre en conformité ont reçu un signal clair : les suppressions d'ASIN et les suspensions de compte sont automatiques, sans avertissement préalable par e-mail.</p>
+
+    <div class="alert-box danger">
+      <div class="alert-title">⚠️ Ce que beaucoup de vendeurs ignorent</div>
+      <p>Amazon envoie les alertes GPSR dans l'onglet <strong>Account Health → Gérer vos conformités</strong>, pas forcément par e-mail. Si vous ne consultez pas cet onglet chaque semaine, vous pouvez rater une alerte de 7 jours qui déclenche une suppression automatique.</p>
+    </div>
+
+    <p>Nous avons analysé les cas de suspension documentés dans les forums vendeurs francophones, les groupes Amazon FBA, et les retours directs de vendeurs depuis janvier 2025. Trois erreurs reviennent systématiquement.</p>
+
+    <h2 id="erreur-1">Erreur 1 : Aucune Personne Responsable EU déclarée</h2>
+
+    <div class="error-number">
+      <div class="num">01</div>
+      <div>
+        <div class="label">Erreur fatale</div>
+        <div class="title">Personne Responsable EU absente</div>
+      </div>
+    </div>
+
+    <p>C'est la cause numéro un de suspension GPSR documentée depuis décembre 2024. Le vendeur vend en Europe depuis la Suisse, le UK, ou les USA — sans avoir désigné de représentant légal dans l'Union Européenne.</p>
+
+    <p><strong>Ce qui se passe concrètement :</strong> Amazon détecte l'absence via le champ "Responsible Person" dans Seller Central. Une alerte apparaît dans Account Health sous "Conformité réglementaire". Le vendeur a 7 jours pour agir. S'il ne voit pas l'alerte — parce qu'il n'a pas activé les notifications ou ne consulte pas l'onglet — l'ASIN est retiré automatiquement.</p>
+
+    <h3>Qui est concerné par cette erreur ?</h3>
+    <ul>
+      <li>Tous les vendeurs basés hors UE : Suisse, UK, USA, Asie, Canada…</li>
+      <li>Les dropshippers qui sourcent hors UE (même si l'entreprise est nominalement française)</li>
+      <li>Les marques propres dont le fabricant est en Chine ou en Asie du Sud-Est</li>
+    </ul>
+
+    <div class="alert-box warning">
+      <div class="alert-title">⚡ Point souvent mal compris — Vendeurs suisses</div>
+      <p>Si vous êtes basé en Suisse, vous n'êtes PAS dans l'UE. Même si vous parlez français, même si vous livrez principalement en France. Vous devez obligatoirement désigner un mandataire établi dans un pays membre de l'UE. La Suisse ne compte pas.</p>
+    </div>
+
+    <h3>Correction en 30 minutes</h3>
+    <ol class="fix-steps">
+      <li>Si vous êtes en France ou dans l'UE : vos propres coordonnées suffisent — c'est gratuit et légal</li>
+      <li>Si vous êtes hors UE : contactez EaseCert, Euverify ou Taxually (budget : 200–500€/an)</li>
+      <li>Saisissez immédiatement les informations dans Seller Central → Performance → Santé du compte → Gérer vos conformités</li>
+      <li>Répétez pour chaque ASIN actif (ou utilisez le template bulk upload)</li>
+    </ol>
+
+    <h2 id="erreur-2">Erreur 2 : Seller Central rempli, étiquette physique non mise à jour</h2>
+
+    <div class="error-number">
+      <div class="num">02</div>
+      <div>
+        <div class="label">Erreur sous-estimée</div>
+        <div class="title">Digital ≠ physique</div>
+      </div>
+    </div>
+
+    <p>C'est l'erreur la plus insidieuse. Le vendeur a fait son travail en ligne — il a rempli tous les champs dans Seller Central, son listing est marqué "conforme". Il pense qu'il est protégé.</p>
+
+    <p>Il ne l'est pas.</p>
+
+    <p>Le règlement GPSR (Art. 9) exige que les informations fabricant et Personne Responsable EU soient présentes <strong>sur le produit physique ou son emballage</strong> — pas uniquement dans une base de données en ligne. Lors d'un contrôle physique par les autorités (DGCCRF, douane), l'absence de ces informations sur le produit est directement sanctionnable, même si Seller Central est parfaitement rempli.</p>
+
+    <div class="alert-box danger">
+      <div class="alert-title">🔴 Ce qui arrive avec le stock FBA</div>
+      <p>Si votre stock FBA a été envoyé avant la mise à jour de vos étiquettes, il peut être non conforme physiquement. Amazon peut le détruire à vos frais en cas de problème ou de contrôle. Pour le stock déjà en entrepôt : contactez Amazon pour demander un re-labelling, ou gérez-le avant le prochain envoi.</p>
+    </div>
+
+    <h3>Correction en 30 minutes</h3>
+    <ol class="fix-steps">
+      <li>Créez un sticker avec : nom PR EU + adresse + numéro de lot + nom du fabricant</li>
+      <li>Format minimal acceptable : sur le produit, l'emballage, ou une notice d'accompagnement</li>
+      <li>Imprimez via votre imprimante locale ou commandez en ligne (Avery, Onlinelabels)</li>
+      <li>Appliquez sur le stock avant le prochain envoi FBA</li>
+    </ol>
+
+    <h2 id="erreur-3">Erreur 3 : Avertissements de sécurité dans une seule langue</h2>
+
+    <div class="error-number">
+      <div class="num">03</div>
+      <div>
+        <div class="label">Erreur invisible</div>
+        <div class="title">Mauvaise langue = non-conforme</div>
+      </div>
+    </div>
+
+    <p>Vous vendez sur Amazon.fr, Amazon.de, Amazon.it, Amazon.es. Vos instructions et avertissements de sécurité sont en anglais, ou uniquement en français. <strong>C'est une non-conformité par pays de vente.</strong></p>
+
+    <p>Le règlement exige que les avertissements de sécurité soient compréhensibles par le consommateur du pays cible. Un avertissement en français pour un acheteur allemand = non conforme. C'est simple, mais c'est une erreur que font la majorité des vendeurs qui ont plusieurs marketplaces actives.</p>
+
+    <h3>Correction en 30 minutes</h3>
+    <ol class="fix-steps">
+      <li>Utilisez DeepL Pro pour traduire vos avertissements (suffisant pour la conformité)</li>
+      <li>Créez un PDF par langue : FR, DE, IT, ES minimum</li>
+      <li>Uploadez dans Seller Central Image Manager</li>
+      <li>Nommez les fichiers selon la nomenclature Amazon : ASIN.PS01-FR.pdf, ASIN.PS01-DE.pdf…</li>
+    </ol>
+
+    <div class="alert-box success">
+      <div class="alert-title">✅ Bonne nouvelle</div>
+      <p>Ces trois erreurs se corrigent chacune en moins de 30 minutes. Le délai de réactivation d'un listing suspendu est de 24 à 72h après correction — mais encore faut-il agir avant la suppression automatique à J+7.</p>
+    </div>
+
+    <h2 id="bonus">L'erreur bonus : ignorer le dashboard "Manage Your Compliance"</h2>
+
+    <p>Amazon a déployé en 2025 un tableau de bord dédié accessible via <strong>Seller Central → Account Health → Gérer vos conformités (Manage Your Compliance)</strong>. Il centralise le statut GPSR de chaque ASIN : conforme / non conforme / en attente.</p>
+
+    <p>Beaucoup de vendeurs ne savent pas qu'il existe. Consultez-le au minimum une fois par semaine. Les notifications e-mail ne sont pas garanties — Amazon considère que c'est votre responsabilité de surveiller ce dashboard.</p>
+
+    <h2 id="conclusion">Ce que vous devez faire maintenant</h2>
+
+    <p>Si vous vendez des produits physiques sur Amazon EU et que vous n'avez pas encore vérifié ces trois points, faites-le aujourd'hui. Pas cette semaine. Aujourd'hui.</p>
+
+    <p>Le Kit Complet de Conformité GPSR (27€) contient les templates, checklists et la structure de dossier technique dont vous avez besoin pour être à jour sur l'ensemble de ces points — sans juriste.</p>
+
+    <div style="background: var(--grey-50); border-radius: 12px; padding: 2rem; margin-top: 2rem; text-align: center;">
+      <p style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--navy); margin-bottom: 0.5rem;">Commencez par le diagnostic gratuit</p>
+      <p style="font-size: 0.9rem; color: var(--grey-600); margin-bottom: 1.25rem;">10 questions pour savoir exactement où vous en êtes.</p>
+      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" style="display:inline-block; background: var(--amber); color: var(--navy); font-family: 'Syne', sans-serif; font-weight: 700; padding: 0.875rem 2rem; border-radius: 8px;">
+        Télécharger la checklist gratuite →
+      </a>
+    </div>
+
+  </article>
+
+  <!-- SIDEBAR -->
+  <aside class="article-sidebar">
+
+    <div class="toc-card" style="margin-bottom:1.5rem;">
+      <h4>Dans cet article</h4>
+      <ol>
+        <li><a href="#erreur-1">Erreur 1 : Personne Responsable EU absente</a></li>
+        <li><a href="#erreur-2">Erreur 2 : Étiquette physique non mise à jour</a></li>
+        <li><a href="#erreur-3">Erreur 3 : Avertissements en une seule langue</a></li>
+        <li><a href="#bonus">Erreur bonus : Le dashboard ignoré</a></li>
+        <li><a href="#conclusion">Ce que vous devez faire maintenant</a></li>
+      </ol>
+    </div>
+
+    <div class="sidebar-card">
+      <div class="sidebar-card-header">
+        <h3>Kit de Conformité GPSR Complet</h3>
+        <p>Templates + Checklists prêts à utiliser · 27€</p>
+      </div>
+      <div class="sidebar-card-body">
+        <ul>
+          <li>Checklist Fabricant / Importateur / Distributeur</li>
+          <li>Template Déclaration de Conformité (.docx)</li>
+          <li>Structure Dossier Technique</li>
+          <li>Obligations par marketplace</li>
+          <li>Section spéciale vendeurs Suisse</li>
+        </ul>
+        <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="sidebar-btn">
+          Obtenir le Kit — 27€ →
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar-card">
+      <div class="sidebar-card-header" style="background: var(--navy);">
+        <h3 style="color:#fff;">Checklist gratuite</h3>
+        <p style="color:rgba(255,255,255,0.6);">Suis-je concerné par le GPSR ?</p>
+      </div>
+      <div class="sidebar-card-body" style="background: var(--grey-50);">
+        <ul>
+          <li>10 questions, 2 minutes</li>
+          <li>Résultat immédiat</li>
+          <li>Prochaines étapes incluses</li>
+        </ul>
+        <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" style="display:block; text-align:center; background: transparent; border: 2px solid var(--navy); color: var(--navy); padding: 0.875rem; border-radius: 8px; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem;">
+          Télécharger gratuitement →
+        </a>
+      </div>
+    </div>
+
+  </aside>
+
+</div>
+
+<footer>
+  <span>© 2025 ComplyCommerce — Ressources GPSR pour vendeurs e-commerce</span>
+  <a href="/">← Retour à l'accueil</a>
+</footer>
+
+</body>
+</html>
