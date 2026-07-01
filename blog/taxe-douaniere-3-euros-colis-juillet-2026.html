@@ -1,141 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taxe douanière de 3€ par colis dès juillet 2026 : ce que ça change pour les vendeurs e-commerce | ComplyCommerce</title>
-  <meta name="description" content="Dès le 1er juillet 2026, l'UE supprime l'exonération de douane sous 150€ et impose 3€ par catégorie d'article. Ce que ça signifie concrètement pour les vendeurs Amazon, Etsy et dropshipping — et comment s'y préparer dès maintenant." />
-  <meta name="keywords" content="taxe douane 3 euros colis 2026, fin exonération 150 euros UE, taxe petits colis juillet 2026, droits de douane e-commerce 2026, taxe colis Chine UE" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://complycommerce.ch/blog/taxe-douaniere-3-euros-colis-juillet-2026.html" />
-
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taxe 3€ petits colis UE : ce qui change AUJOURD'HUI pour tout vendeur e-commerce | ComplyCommerce</title>
+  <meta name="description" content="Depuis le 1er juillet 2026, chaque catégorie d'article dans un colis de moins de 150€ importé dans l'UE coûte 3€ de droits de douane. Dropshippers, vendeurs Amazon et Etsy : voici l'impact réel sur vos marges et ce que vous devez faire."/>
+  <meta name="keywords" content="taxe 3 euros petits colis UE juillet 2026, droits de douane colis moins 150 euros, dropshipping taxe douane 2026, franchise douanière supprimée, GPSR taxe douane e-commerce, Temu Shein taxe 2026"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://complycommerce.ch/blog/taxe-3-euros-colis-ue-2026.html"/>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Taxe douanière de 3€ par colis dès juillet 2026 : ce que ça change pour les vendeurs e-commerce",
-    "datePublished": "2026-06-25",
-    "dateModified": "2026-06-25",
-    "author": { "@type": "Organization", "name": "ComplyCommerce" },
-    "publisher": { "@type": "Organization", "name": "ComplyCommerce", "url": "https://complycommerce.ch" },
-    "description": "Tout ce que les vendeurs e-commerce doivent savoir sur la fin de l'exonération douanière sous 150€ et la nouvelle taxe forfaitaire de 3€ par catégorie d'article, applicable au 1er juillet 2026."
+    "@type": "NewsArticle",
+    "headline": "Taxe 3€ petits colis UE : ce qui change aujourd'hui pour tout vendeur e-commerce",
+    "datePublished": "2026-07-01",
+    "dateModified": "2026-07-01",
+    "author": {"@type": "Organization", "name": "ComplyCommerce"},
+    "publisher": {"@type": "Organization", "name": "ComplyCommerce", "url": "https://complycommerce.ch"},
+    "description": "Depuis le 1er juillet 2026, tout colis de moins de 150€ importé dans l'UE est taxé à 3€ par catégorie d'article."
   }
   </script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <style>
-    :root {
-      --navy: #0D1B2A; --ink: #1A2B3C; --amber: #E8A020;
-      --red: #C0392B; --green: #1A7A4A;
-      --grey-50: #F7F8FA; --grey-100: #EEF0F4;
-      --grey-300: #C4C9D4; --grey-600: #6B7280;
-      --white: #FFFFFF; --text: #1A2B3C;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
-    h1,h2,h3,h4 { font-family: 'Syne', sans-serif; line-height: 1.2; }
-    a { color: inherit; text-decoration: none; }
-
-    nav {
-      position: sticky; top: 0; z-index: 100;
-      background: var(--navy); padding: 0 5vw;
-      display: flex; align-items: center; justify-content: space-between;
-      height: 64px;
-    }
-    .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.2rem; color: #fff; letter-spacing: -0.02em; }
-    .nav-logo span { color: var(--amber); }
-    .nav-cta { background: var(--amber); color: var(--navy); padding: 0.5rem 1.25rem; border-radius: 6px; font-weight: 600; font-size: 0.875rem; }
-
-    .article-header { background: var(--navy); padding: 4rem 5vw 3rem; }
-    .breadcrumb { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-bottom: 1.5rem; }
-    .breadcrumb a { color: rgba(255,255,255,0.4); }
-    .breadcrumb a:hover { color: var(--amber); }
-    .article-cat {
-      display: inline-block; background: rgba(232,160,32,0.15); border: 1px solid rgba(232,160,32,0.3);
-      color: var(--amber); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
-      text-transform: uppercase; padding: 0.3rem 0.8rem; border-radius: 100px; margin-bottom: 1rem;
-    }
-    .article-header h1 { font-size: clamp(1.6rem, 3.5vw, 2.6rem); color: #fff; font-weight: 800; letter-spacing: -0.03em; max-width: 780px; margin-bottom: 1rem; }
-    .article-meta { font-size: 0.8rem; color: rgba(255,255,255,0.4); display: flex; gap: 1rem; flex-wrap: wrap; }
-
-    .article-layout {
-      display: grid; grid-template-columns: 1fr 340px; gap: 3rem;
-      max-width: 1100px; margin: 0 auto; padding: 3.5rem 5vw; align-items: start;
-    }
-    .article-body { max-width: 680px; }
-    .article-body h2 { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; margin: 2.5rem 0 1rem; color: var(--navy); }
-    .article-body h3 { font-size: 1.1rem; font-weight: 700; margin: 1.75rem 0 0.6rem; color: var(--navy); }
-    .article-body p { font-size: 1rem; line-height: 1.75; margin-bottom: 1.2rem; color: #2C3E50; }
-    .article-body ul, .article-body ol { padding-left: 1.5rem; margin-bottom: 1.2rem; }
-    .article-body li { font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.4rem; color: #2C3E50; }
-    .article-body strong { font-weight: 600; color: var(--navy); }
-
-    .alert-box { border-radius: 10px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; border-left: 4px solid; }
-    .alert-box.danger { background: #FDF2F2; border-color: var(--red); }
-    .alert-box.warning { background: #FEF9EE; border-color: var(--amber); }
-    .alert-box.success { background: #F0FBF5; border-color: var(--green); }
-    .alert-box .alert-title { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem; }
-    .alert-box.danger .alert-title { color: var(--red); }
-    .alert-box.warning .alert-title { color: #A07000; }
-    .alert-box.success .alert-title { color: var(--green); }
-    .alert-box p { margin: 0; font-size: 0.9rem; }
-
-    .error-number {
-      display: flex; align-items: center; gap: 1rem;
-      background: var(--navy); color: #fff; border-radius: 12px; padding: 1.5rem; margin: 2rem 0 1rem;
-    }
-    .error-number .num { font-family: 'Syne', sans-serif; font-size: 3rem; font-weight: 800; color: var(--amber); line-height: 1; flex-shrink: 0; }
-    .error-number .label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); }
-    .error-number .title { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700; color: #fff; }
-
-    .fix-steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0; }
-    .fix-steps li {
-      counter-increment: step; position: relative; padding: 0.6rem 0 0.6rem 3rem; font-size: 0.9rem;
-      border-bottom: 1px solid var(--grey-100); color: #2C3E50;
-    }
-    .fix-steps li::before {
-      content: counter(step); position: absolute; left: 0; top: 50%; transform: translateY(-50%);
-      background: var(--amber); color: var(--navy); font-family: 'Syne', sans-serif; font-weight: 800; font-size: 0.75rem;
-      width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
-    }
-
-    table.compare { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
-    table.compare th, table.compare td { padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--grey-100); text-align: left; }
-    table.compare th { background: var(--grey-50); font-family: 'Syne', sans-serif; font-weight: 700; color: var(--navy); }
-
-    .article-sidebar { position: sticky; top: 88px; }
-    .sidebar-card { border-radius: 14px; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid var(--grey-100); }
-    .sidebar-card-header { background: var(--amber); padding: 1.25rem 1.5rem; }
-    .sidebar-card-header h3 { font-size: 1rem; font-weight: 800; color: var(--navy); }
-    .sidebar-card-header p { font-size: 0.8rem; color: rgba(13,27,42,0.7); margin-top: 0.25rem; }
-    .sidebar-card-body { padding: 1.5rem; background: #FFFBF0; }
-    .sidebar-card-body ul { list-style: none; margin-bottom: 1.25rem; }
-    .sidebar-card-body li { font-size: 0.85rem; padding: 0.3rem 0; display: flex; gap: 0.5rem; }
-    .sidebar-card-body li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
-    .sidebar-btn {
-      display: block; text-align: center; background: var(--navy); color: #fff; padding: 0.875rem; border-radius: 8px;
-      font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem; transition: opacity 0.2s;
-    }
-    .sidebar-btn:hover { opacity: 0.85; }
-    .toc-card { background: var(--grey-50); border: 1px solid var(--grey-100); border-radius: 14px; padding: 1.5rem; }
-    .toc-card h4 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--grey-600); margin-bottom: 1rem; }
-    .toc-card ol { padding-left: 1.25rem; }
-    .toc-card li { font-size: 0.85rem; margin-bottom: 0.5rem; }
-    .toc-card a { color: var(--ink); transition: color 0.2s; }
-    .toc-card a:hover { color: var(--amber); }
-
-    footer {
-      background: #080F18; color: rgba(255,255,255,0.4); padding: 2rem 5vw; display: flex;
-      justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem; margin-top: 3rem;
-    }
-    footer a { color: rgba(255,255,255,0.4); }
-    footer a:hover { color: #fff; }
-
-    @media (max-width: 860px) { .article-layout { grid-template-columns: 1fr; } .article-sidebar { position: static; } }
-    @media (max-width: 640px) { nav { padding: 0 1.25rem; } .article-header { padding: 2.5rem 1.25rem; } .article-layout { padding: 2rem 1.25rem; } }
+    :root{--navy:#0D1B2A;--amber:#E8A020;--red:#C0392B;--green:#1A7A4A;--grey-50:#F7F8FA;--grey-100:#EEF0F4;--grey-600:#6B7280;--white:#FFFFFF;--text:#1A2B3C}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',sans-serif;color:var(--text);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+    h1,h2,h3,h4{font-family:'Syne',sans-serif;line-height:1.2}
+    a{color:inherit;text-decoration:none}
+    nav{position:sticky;top:0;z-index:100;background:var(--navy);padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:64px}
+    .nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:#fff;letter-spacing:-.02em}
+    .nav-logo span{color:var(--amber)}
+    .nav-cta{background:var(--amber);color:var(--navy);padding:.5rem 1.25rem;border-radius:6px;font-weight:600;font-size:.875rem}
+    .breaking-band{background:var(--red);color:#fff;padding:.75rem 5vw;display:flex;align-items:center;gap:.75rem;font-size:.875rem;font-weight:600}
+    .article-header{background:var(--navy);padding:4rem 5vw 3rem}
+    .breadcrumb{font-size:.8rem;color:rgba(255,255,255,.4);margin-bottom:1.5rem}
+    .breadcrumb a{color:rgba(255,255,255,.4)}
+    .breadcrumb a:hover{color:var(--amber)}
+    .article-cat{display:inline-block;background:rgba(192,57,43,.25);border:1px solid rgba(192,57,43,.5);color:#FF8070;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.3rem .8rem;border-radius:100px;margin-bottom:1rem}
+    .article-header h1{font-size:clamp(1.6rem,3.5vw,2.7rem);color:#fff;font-weight:800;letter-spacing:-.03em;max-width:800px;margin-bottom:1rem}
+    .article-meta{font-size:.8rem;color:rgba(255,255,255,.4);display:flex;gap:1rem;flex-wrap:wrap}
+    .article-layout{display:grid;grid-template-columns:1fr 340px;gap:3rem;max-width:1100px;margin:0 auto;padding:3.5rem 5vw;align-items:start}
+    .article-body{max-width:680px}
+    .article-body h2{font-size:1.4rem;font-weight:800;letter-spacing:-.02em;margin:2.5rem 0 1rem;color:var(--navy)}
+    .article-body h3{font-size:1.1rem;font-weight:700;margin:1.75rem 0 .6rem;color:var(--navy)}
+    .article-body p{font-size:1rem;line-height:1.75;margin-bottom:1.2rem;color:#2C3E50}
+    .article-body ul,.article-body ol{padding-left:1.5rem;margin-bottom:1.2rem}
+    .article-body li{font-size:.95rem;line-height:1.7;margin-bottom:.5rem;color:#2C3E50}
+    .article-body strong{font-weight:600;color:var(--navy)}
+    .alert-box{border-radius:10px;padding:1.25rem 1.5rem;margin:1.5rem 0;border-left:4px solid}
+    .alert-box.danger{background:#FDF2F2;border-color:var(--red)}
+    .alert-box.warning{background:#FEF9EE;border-color:var(--amber)}
+    .alert-box.success{background:#F0FBF5;border-color:var(--green)}
+    .alert-box.info{background:#EFF6FF;border-color:#3B82F6}
+    .alert-title{font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem}
+    .alert-box.danger .alert-title{color:var(--red)}
+    .alert-box.warning .alert-title{color:#A07000}
+    .alert-box.success .alert-title{color:var(--green)}
+    .alert-box.info .alert-title{color:#1D4ED8}
+    .alert-box p{margin:0;font-size:.9rem}
+    .calc-example{background:var(--navy);border-radius:14px;padding:1.75rem;margin:1.75rem 0;color:#fff}
+    .calc-example h4{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;color:var(--amber);margin-bottom:1rem}
+    .calc-row{display:flex;justify-content:space-between;align-items:center;padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:.9rem}
+    .calc-row:last-child{border:none;padding-top:.75rem}
+    .calc-row .label{color:rgba(255,255,255,.7)}
+    .calc-row .value{font-weight:600;color:#fff}
+    .calc-row.total .label{color:#fff;font-weight:700}
+    .calc-row.total .value{color:var(--amber);font-size:1.1rem}
+    .before-after{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+    .ba-card{border-radius:12px;padding:1.25rem}
+    .ba-card.before{background:var(--grey-50);border:2px solid var(--grey-100)}
+    .ba-card.after{background:#FEF2F2;border:2px solid #FECACA}
+    .ba-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+    .ba-card.before .ba-label{color:var(--grey-600)}
+    .ba-card.after .ba-label{color:var(--red)}
+    .ba-price{font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;margin-bottom:.25rem}
+    .ba-card.before .ba-price{color:var(--navy)}
+    .ba-card.after .ba-price{color:var(--red)}
+    .ba-detail{font-size:.78rem;color:var(--grey-600);line-height:1.6}
+    .timeline{position:relative;padding-left:2rem;margin:1.5rem 0}
+    .timeline::before{content:'';position:absolute;left:.4rem;top:0;bottom:0;width:2px;background:var(--grey-100)}
+    .timeline-item{position:relative;margin-bottom:1.5rem}
+    .timeline-item::before{content:'';position:absolute;left:-1.65rem;top:.35rem;width:10px;height:10px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber)}
+    .timeline-item.active::before{background:var(--red);box-shadow:0 0 0 3px rgba(192,57,43,.2)}
+    .timeline-item .date{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+    .timeline-item.active .date{color:var(--red)}
+    .timeline-item h4{font-size:.95rem;font-weight:700;color:var(--navy);margin-bottom:.2rem}
+    .timeline-item p{font-size:.85rem;color:var(--grey-600);margin:0}
+    .article-sidebar{position:sticky;top:88px}
+    .sidebar-card{border-radius:14px;overflow:hidden;margin-bottom:1.5rem;border:1px solid var(--grey-100)}
+    .sidebar-card-header{background:var(--amber);padding:1.25rem 1.5rem}
+    .sidebar-card-header h3{font-size:1rem;font-weight:800;color:var(--navy)}
+    .sidebar-card-header p{font-size:.8rem;color:rgba(13,27,42,.7);margin-top:.25rem}
+    .sidebar-card-body{padding:1.5rem;background:#FFFBF0}
+    .sidebar-card-body ul{list-style:none;margin-bottom:1.25rem}
+    .sidebar-card-body li{font-size:.85rem;padding:.3rem 0;display:flex;gap:.5rem}
+    .sidebar-card-body li::before{content:'✓';color:var(--green);font-weight:700;flex-shrink:0}
+    .sidebar-btn{display:block;text-align:center;background:var(--navy);color:#fff;padding:.875rem;border-radius:8px;font-family:'Syne',sans-serif;font-weight:700;font-size:.9rem}
+    .toc-card{background:var(--grey-50);border:1px solid var(--grey-100);border-radius:14px;padding:1.5rem;margin-bottom:1.5rem}
+    .toc-card h4{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--grey-600);margin-bottom:1rem}
+    .toc-card ol{padding-left:1.25rem}
+    .toc-card li{font-size:.85rem;margin-bottom:.5rem}
+    .toc-card a{color:var(--text)}
+    .toc-card a:hover{color:var(--amber)}
+    footer{background:#080F18;color:rgba(255,255,255,.4);padding:2rem 5vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;font-size:.8rem;margin-top:3rem}
+    footer a{color:rgba(255,255,255,.4)}
+    footer a:hover{color:#fff}
+    @media(max-width:860px){.article-layout{grid-template-columns:1fr}.article-sidebar{position:static}.before-after{grid-template-columns:1fr}}
+    @media(max-width:640px){nav{padding:0 1.25rem}.article-header{padding:2.5rem 1.25rem}.article-layout{padding:2rem 1.25rem}}
   </style>
 </head>
 <body>
@@ -145,167 +118,207 @@
   <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="nav-cta">Checklist gratuite →</a>
 </nav>
 
+<div class="breaking-band">
+  🔴 AUJOURD'HUI — 1er juillet 2026 — La taxe entre en vigueur maintenant
+</div>
+
 <header class="article-header">
-  <nav class="breadcrumb" aria-label="Fil d'Ariane">
-    <a href="/">Accueil</a> › <a href="/#blog">Blog GPSR</a> › Article
-  </nav>
-  <span class="article-cat">Douane · Actualité réglementaire</span>
-  <h1>Taxe de 3€ par colis dès le 1er juillet 2026 : ce que ça change vraiment pour vous</h1>
+  <nav class="breadcrumb"><a href="/">Accueil</a> › <a href="/#blog">Blog GPSR</a> › Article</nav>
+  <span class="article-cat">🚨 Actualité brûlante · En vigueur ce jour</span>
+  <h1>Taxe 3€ sur les petits colis UE : ce qui change aujourd'hui et l'impact réel sur vos marges</h1>
   <div class="article-meta">
-    <span>📅 Publié le 25 juin 2026</span>
+    <span>📅 Publié le 1er juillet 2026</span>
     <span>·</span>
-    <span>🕐 9 min de lecture</span>
+    <span>🕐 8 min de lecture</span>
     <span>·</span>
-    <span>Sujet à jour — entrée en vigueur dans quelques jours</span>
+    <span>Sources : gouvernement.fr · economie.gouv.fr · Conseil EU · info.gouv.fr</span>
   </div>
 </header>
 
 <div class="article-layout">
+<article class="article-body">
 
-  <article class="article-body">
+  <p>C'est aujourd'hui. Pas dans 6 mois. <strong>Depuis ce matin, 1er juillet 2026, tout colis de moins de 150€ entrant dans l'Union Européenne depuis un pays tiers est taxé à 3€ par catégorie d'article.</strong> La franchise douanière dont bénéficiaient Temu, Shein, AliExpress — et surtout les dropshippers européens — est définitivement supprimée.</p>
 
-    <p>Le 12 décembre 2025, les ministres européens de l'Économie ont validé une mesure qui va silencieusement redessiner l'économie de milliers de boutiques en ligne : la fin de l'exonération de droits de douane pour tous les colis de moins de 150€. À la place : un droit forfaitaire de <strong>3€ par catégorie d'article</strong> contenue dans un colis, applicable dès le <strong>1er juillet 2026</strong>.</p>
+  <p>Si vous vendez des produits physiques sourcés hors UE à des clients européens, cette réforme vous touche directement. Voici les faits exacts, sans catastrophisme mais sans édulcoration.</p>
 
-    <p>Le texte juridique a été publié au Journal officiel de l'UE le 18 février 2026. Ce n'est plus une rumeur, ni un projet. C'est une règle en vigueur dans quelques jours, et la quasi-totalité des vendeurs qui importent — même occasionnellement — n'ont aucune idée de l'ampleur de l'impact sur leurs marges.</p>
+  <div class="alert-box danger">
+    <div class="alert-title">⚠️ Correction d'une idée reçue très répandue</div>
+    <p>La taxe n'est <strong>pas</strong> de 3€ par article unitaire. Elle est de 3€ par <strong>catégorie tarifaire douanière</strong> dans un colis. Deux chemisiers = une seule catégorie = 3€. Un chemisier + un pantalon = deux catégories = 6€. C'est plus favorable que ce que beaucoup de médias ont annoncé — mais ça reste significatif pour les dropshippers à faible marge.</p>
+  </div>
 
-    <div class="alert-box danger">
-      <div class="alert-title">⚠️ Ce que presque personne n'a compris</div>
-      <p>La taxe n'est pas "3€ par colis". Elle est de 3€ <strong>par catégorie tarifaire distincte contenue dans le colis</strong>. Un colis avec un t-shirt en coton et une ceinture en cuir contient deux catégories différentes (chapitre 61 et chapitre 42 du tarif douanier) → 6€ de droits, pas 3€. Si vous groupez plusieurs références dans un même envoi pour optimiser vos coûts de port, vous pourriez payer bien plus que prévu.</p>
+  <h2 id="concretement">Ce qui se passe concrètement dès aujourd'hui</h2>
+
+  <p>Jusqu'à hier, les colis de moins de 150€ entrant dans l'UE étaient exonérés de droits de douane. Ils payaient la TVA, pas de droits douaniers. Cette exemption existait depuis des décennies — pensée à une époque où le commerce transfrontalier restait marginal.</p>
+
+  <p>En 2024, 4,6 milliards de petits colis sont entrés dans l'UE, dont 91% en provenance de Chine. La franchise était devenue une distorsion massive de concurrence contre les vendeurs européens.</p>
+
+  <p>À partir d'aujourd'hui :</p>
+  <ul>
+    <li>Tout colis de valeur ≤ 150€ entrant dans l'UE depuis hors UE est concerné</li>
+    <li>3€ par <strong>catégorie tarifaire douanière</strong> (code HS) contenue dans le colis</li>
+    <li>La taxe est due par la plateforme ou l'importateur — elle peut être répercutée sur le prix final</li>
+    <li>La taxe française de 2€ (en vigueur depuis mars 2026) est suspendue aujourd'hui, remplacée par ce dispositif européen</li>
+    <li>En novembre 2026, une redevance supplémentaire de gestion douanière viendra s'ajouter ("Union Handling Fee")</li>
+  </ul>
+
+  <h2 id="calcul">Calcul concret : ce que ça coûte selon votre situation</h2>
+
+  <div class="calc-example">
+    <h4>Exemple 1 — Colis mixte avec 3 catégories de produits différentes</h4>
+    <div class="calc-row"><span class="label">Produit A (décoration — 1 catégorie)</span><span class="value">12€</span></div>
+    <div class="calc-row"><span class="label">Produit B (textile — 1 catégorie)</span><span class="value">18€</span></div>
+    <div class="calc-row"><span class="label">Produit C (jouet — 1 catégorie)</span><span class="value">9€</span></div>
+    <div class="calc-row"><span class="label" style="color:#FF8070">Droits de douane (3 catégories × 3€)</span><span class="value" style="color:#FF8070">+9€</span></div>
+    <div class="calc-row total"><span class="label">Coût total à l'import</span><span class="value">48€ au lieu de 39€</span></div>
+  </div>
+
+  <div class="calc-example">
+    <h4>Exemple 2 — Dropshipper : commande unitaire d'un seul produit</h4>
+    <div class="calc-row"><span class="label">Produit vendu (gadget cuisine — 1 catégorie)</span><span class="value">8€</span></div>
+    <div class="calc-row"><span class="label">Marge habituelle</span><span class="value">3,50€</span></div>
+    <div class="calc-row"><span class="label" style="color:#FF8070">Droits de douane (1 catégorie × 3€)</span><span class="value" style="color:#FF8070">-3€</span></div>
+    <div class="calc-row total"><span class="label">Marge restante</span><span class="value" style="color:#FF8070">0,50€</span></div>
+  </div>
+
+  <p>Le deuxième exemple est brutal. Et c'est volontaire : l'Union Européenne cherche précisément à rendre non viables les modèles basés sur des marges micro et des produits à très faible valeur sourcés hors UE.</p>
+
+  <h2 id="avant-apres">Avant / Après pour un achat à 10€</h2>
+
+  <div class="before-after">
+    <div class="ba-card before">
+      <div class="ba-label">Avant le 1er juillet 2026</div>
+      <div class="ba-price">12€</div>
+      <div class="ba-detail">Produit : 10€<br/>TVA (20%) : +2€<br/>Droits douane : 0€</div>
     </div>
-
-    <h2 id="quoi">Ce qui change concrètement le 1er juillet 2026</h2>
-
-    <p>Depuis la réforme douanière de 2010, tout envoi d'une valeur inférieure à 150€ entrant dans l'UE était totalement exonéré de droits de douane (seule la TVA s'appliquait depuis 2021, via le régime IOSS). Cette "franchise de minimis" disparaît purement et simplement.</p>
-
-    <table class="compare">
-      <tr><th></th><th>Avant le 1er juillet 2026</th><th>Après le 1er juillet 2026</th></tr>
-      <tr><td>Colis &lt; 150€</td><td>0€ de droit de douane</td><td>3€ par catégorie d'article</td></tr>
-      <tr><td>TVA</td><td>Collectée via IOSS</td><td>Inchangée, collectée en plus</td></tr>
-      <tr><td>Durée du régime</td><td>—</td><td>Transitoire, jusqu'en 2028</td></tr>
-    </table>
-
-    <p>Ce régime à 3€ est volontairement temporaire et simplifié. Il doit céder la place, autour de 2028, à un système de calcul automatisé des droits réels par produit via une nouvelle plateforme centralisée, le <strong>EU Customs Data Hub</strong>. En attendant cette infrastructure, Bruxelles a choisi un montant forfaitaire facile à appliquer à grande échelle — 5,9 milliards de colis sont entrés dans l'UE en 2025 sous ce régime, dont 90% en provenance de Chine.</p>
-
-    <h2 id="qui">Qui est concerné — et qui pense (à tort) ne pas l'être</h2>
-
-    <div class="error-number">
-      <div class="num">01</div>
-      <div>
-        <div class="label">Cible directe</div>
-        <div class="title">Dropshippers et vendeurs qui sourcent hors UE</div>
-      </div>
+    <div class="ba-card after">
+      <div class="ba-label">Dès aujourd'hui</div>
+      <div class="ba-price">15€+</div>
+      <div class="ba-detail">Produit : 10€<br/>Taxe EU : +3€<br/>TVA sur total : +2€<br/>+ Union Handling Fee en nov. : à venir</div>
     </div>
+  </div>
 
-    <p>Si vous faites du dropshipping depuis la Chine, ou si vous importez votre stock unitairement depuis un fournisseur hors UE (AliExpress, fournisseurs Alibaba en envoi direct, etc.), vous êtes en première ligne. Chaque envoi individuel passera désormais par cette taxe, qui s'applique à <strong>toutes les marchandises vendues par un vendeur non européen enregistré à l'IOSS</strong> — soit 93% des flux e-commerce actuels vers l'UE.</p>
+  <p>Et en novembre 2026, une redevance supplémentaire de gestion viendra s'ajouter. Le coût final pour le consommateur d'un produit à 10€ sourcé hors UE pourrait atteindre 16–18€ d'ici fin 2026.</p>
 
-    <div class="error-number">
-      <div class="num">02</div>
-      <div>
-        <div class="label">Cible indirecte mais réelle</div>
-        <div class="title">Vendeurs Amazon FBA / Etsy qui réapprovisionnent depuis l'Asie</div>
-      </div>
+  <h2 id="qui-paie">Qui paie réellement ?</h2>
+
+  <ul>
+    <li><strong>Grandes plateformes (Temu, Shein)</strong> : elles absorbent ou répercutent selon leur stratégie. Temu et Shein ont déjà ajusté leurs prix en anticipation.</li>
+    <li><strong>Vendeurs Amazon tiers sourcés hors UE</strong> : vous êtes l'importateur. La taxe s'applique à votre stock entrant.</li>
+    <li><strong>Dropshippers</strong> : chaque commande expédiée directement de Chine à un client EU génère cette taxe. Impossible de la mutualiser. C'est le modèle le plus touché.</li>
+    <li><strong>Vendeurs avec stock en UE</strong> : non impactés directement. La taxe s'applique à l'import, pas à la livraison intra-UE.</li>
+  </ul>
+
+  <div class="alert-box success">
+    <div class="alert-title">✅ La bonne nouvelle pour les vendeurs européens conformes</div>
+    <p>Si vous stockez vos produits dans l'UE et expédiez depuis un entrepôt européen, cette taxe ne s'applique pas à vos livraisons. C'est précisément l'avantage compétitif que la réforme cherche à rétablir. La conformité GPSR — qui implique de contrôler sa chaîne d'approvisionnement — devient encore plus stratégique.</p>
+  </div>
+
+  <h2 id="novembre">Attention : une deuxième charge arrive en novembre 2026</h2>
+
+  <p>La taxe du 1er juillet n'est que la première étape. À partir du 1er novembre 2026, une redevance européenne de gestion douanière ("Union Handling Fee") viendra s'ajouter. Ses montants exacts n'ont pas encore été publiés mais elle est conçue pour couvrir les coûts des contrôles douaniers sur le volume croissant de colis.</p>
+
+  <p>Ensuite, d'ici 2028, quand la plateforme de données douanières européenne (EU Customs Data Hub) sera opérationnelle, le régime forfaitaire sera remplacé par des tarifs douaniers normaux calculés produit par produit.</p>
+
+  <h2 id="timeline">La chronologie complète</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="date">13 décembre 2024</div>
+      <h4>Entrée en vigueur du GPSR</h4>
+      <p>Obligations de conformité produit pour tous les vendeurs de produits physiques en Europe.</p>
     </div>
-
-    <p>Même si vous stockez en Europe via Amazon FBA, si votre fournisseur vous expédie depuis la Chine en plusieurs petits envois plutôt qu'en gros conteneur, ces envois individuels sont concernés. C'est un point que beaucoup ignorent : la taxe ne dépend pas de votre modèle de vente, mais du mode d'expédition de votre marchandise.</p>
-
-    <div class="alert-box warning">
-      <div class="alert-title">⚡ Le piège franco-européen</div>
-      <p>Si vous vendez depuis ou vers la France, une deuxième couche s'ajoute : la France a instauré dès le <strong>1er mars 2026</strong> sa propre taxe nationale sur les petits colis (TPC) de 2€ par article. Les deux taxes ne sont pas redondantes pour les mêmes flux, mais leur articulation précise pour certains cas mixtes reste un point que les textes d'application doivent encore clarifier. Anticiper une hausse cumulée de 30 à 50% sur le coût final de vos imports à bas prix n'est pas une exagération.</p>
+    <div class="timeline-item">
+      <div class="date">1er mars 2026</div>
+      <h4>Taxe nationale française de 2€/article</h4>
+      <p>Dispositif national anticipatoire — suspendu aujourd'hui, remplacé par la taxe EU.</p>
     </div>
+    <div class="timeline-item active">
+      <div class="date">1er juillet 2026 — AUJOURD'HUI</div>
+      <h4>🔴 Taxe EU de 3€ par catégorie tarifaire</h4>
+      <p>S'applique dans les 27 États membres. La taxe française est suspendue.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="date">1er novembre 2026</div>
+      <h4>Union Handling Fee</h4>
+      <p>Redevance de gestion douanière supplémentaire — montants à préciser.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="date">2028</div>
+      <h4>Tarifs douaniers normaux produit par produit</h4>
+      <p>Une fois l'EU Customs Data Hub opérationnel.</p>
+    </div>
+  </div>
 
-    <h2 id="impact">L'impact réel sur votre prix de revient</h2>
+  <h2 id="gpsr-lien">Le lien avec le GPSR : deux réformes, une même logique</h2>
 
-    <p>Prenons un exemple simple, sur un produit acheté à 10€ et expédié seul depuis la Chine après le 1er juillet 2026 :</p>
+  <p>Ce n'est pas un hasard si la taxe douanière et le GPSR arrivent en même temps. Ces deux réformes font partie d'un même mouvement de l'Union Européenne : mettre fin à l'avantage compétitif des vendeurs extra-EU qui bénéficiaient jusqu'ici de zéro droits de douane ET d'aucune obligation de conformité produit.</p>
 
-    <ul>
-      <li>Prix produit : 10€</li>
-      <li>Taxe douanière UE : +3€</li>
-      <li>TVA sur le total : environ +3€</li>
-      <li><strong>Coût final : environ 16€</strong>, contre 10-11€ avant la réforme</li>
-    </ul>
+  <p>Le GPSR impose la conformité sécurité. La taxe rééquilibre les coûts. Ensemble, ils redessinaient structurellement les règles du e-commerce transfrontalier. Pour les vendeurs qui ont anticipé leur conformité GPSR, cette double réforme est une opportunité concurrentielle réelle.</p>
 
-    <p>Sur un produit à faible marge, ce surcoût peut tout simplement annuler votre profit. C'est précisément l'objectif visé par Bruxelles : rendre non compétitif le modèle du micro-colis ultra bon marché qui a explosé avec Shein, Temu et AliExpress — un effet collatéral qui touchera aussi les vendeurs européens qui utilisent les mêmes circuits d'approvisionnement.</p>
+  <h2 id="action">Ce que vous devez faire maintenant</h2>
 
-    <h3>Trois leviers pour limiter l'impact</h3>
-    <ol class="fix-steps">
-      <li>Regrouper vos commandes fournisseur en envois plus volumineux plutôt qu'en flux unitaire (change le régime douanier applicable)</li>
-      <li>Étudier le rapatriement d'un stock tampon en UE via un entrepôt 3PL européen pour éviter le passage répété en petits colis</li>
-      <li>Recalculer vos prix de vente AVANT le 1er juillet, pas après — beaucoup de vendeurs vont découvrir leur marge négative en pleine saison de vente</li>
+  <ol>
+    <li><strong>Calculez votre impact réel</strong> : listez vos produits sourcés hors UE, appliquez 3€ par catégorie tarifaire sur vos commandes moyennes</li>
+    <li><strong>Vérifiez si vous pouvez absorber</strong> : sur des produits à 25€+, souvent faisable. Sur des produits à 5–8€, le modèle doit être repensé</li>
+    <li><strong>Évaluez un stock EU</strong> : un entrepôt en France ou en Allemagne supprime la taxe sur les livraisons intra-EU</li>
+    <li><strong>Vérifiez votre conformité GPSR en parallèle</strong> : non-conformité GPSR + infraction douanière = double risque</li>
+    <li><strong>Anticipez novembre 2026</strong> : intégrez la Union Handling Fee dans vos projections maintenant</li>
+  </ol>
+
+  <div style="background:var(--grey-50);border-radius:12px;padding:2rem;margin-top:2rem;text-align:center">
+    <p style="font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:.5rem">Vérifiez aussi votre conformité GPSR</p>
+    <p style="font-size:.9rem;color:var(--grey-600);margin-bottom:1.25rem">Checklist gratuite · 10 questions · 2 minutes</p>
+    <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" style="display:inline-block;background:var(--amber);color:var(--navy);font-family:'Syne',sans-serif;font-weight:700;padding:.875rem 2rem;border-radius:8px;font-size:1rem">Télécharger la checklist gratuite →</a>
+  </div>
+
+</article>
+
+<aside class="article-sidebar">
+  <div class="toc-card">
+    <h4>Dans cet article</h4>
+    <ol>
+      <li><a href="#concretement">Ce qui se passe aujourd'hui</a></li>
+      <li><a href="#calcul">Calcul concret</a></li>
+      <li><a href="#avant-apres">Avant / Après chiffré</a></li>
+      <li><a href="#qui-paie">Qui paie vraiment ?</a></li>
+      <li><a href="#novembre">La charge de novembre</a></li>
+      <li><a href="#timeline">Chronologie complète</a></li>
+      <li><a href="#gpsr-lien">Lien avec le GPSR</a></li>
+      <li><a href="#action">Ce que vous devez faire</a></li>
     </ol>
-
-    <h2 id="lien-gpsr">Le lien que personne ne fait avec le GPSR</h2>
-
-    <p>Voici un point que les articles généralistes sur cette taxe ne mentionnent jamais : cette réforme douanière s'accompagne d'un renforcement des contrôles physiques aux frontières. Les douanes disposent désormais d'un mandat élargi pour vérifier, au moment du passage en douane, la conformité réglementaire des produits — dont le respect du <strong>règlement GPSR</strong> (marquage CE, Personne Responsable UE, étiquetage) fait partie.</p>
-
-    <p>Concrètement : un produit qui passait inaperçu en douane avant juillet 2026 parce que le flux était trop massif pour être contrôlé individuellement a statistiquement plus de risques d'être inspecté maintenant que chaque envoi génère une déclaration douanière individualisée. Si votre produit n'a pas de Personne Responsable UE déclarée ou d'étiquetage conforme, c'est le moment où ça se voit.</p>
-
-    <div class="alert-box success">
-      <div class="alert-title">✅ Ce qu'il faut retenir</div>
-      <p>La hausse des coûts douaniers est inévitable pour qui importe en petits colis. Mais c'est aussi l'occasion de vérifier — avant que les contrôles ne se multiplient — que vos produits sont en règle sur le plan GPSR. Les deux sujets sont liés : douane qui se durcit = conformité produit qui devient visible.</p>
+  </div>
+  <div class="sidebar-card">
+    <div class="sidebar-card-header">
+      <h3>Guide GPSR — Votre compte protégé</h3>
+      <p>Amazon & Etsy · 12 sections · 19€</p>
     </div>
-
-    <h2 id="conclusion">Que faire avant le 1er juillet 2026</h2>
-
-    <p>Trois actions concrètes cette semaine : recalculez vos coûts de revient en intégrant le forfait de 3€ par catégorie d'article, vérifiez votre mode d'expédition actuel avec votre fournisseur, et profitez de ce moment de bascule réglementaire pour vérifier votre conformité GPSR — les deux contrôles vont désormais souvent de pair.</p>
-
-    <div style="background: var(--grey-50); border-radius: 12px; padding: 2rem; margin-top: 2rem; text-align: center;">
-      <p style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--navy); margin-bottom: 0.5rem;">Vérifiez votre conformité avant que les contrôles ne se renforcent</p>
-      <p style="font-size: 0.9rem; color: var(--grey-600); margin-bottom: 1.25rem;">10 questions pour savoir exactement où vous en êtes sur le GPSR.</p>
-      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" style="display:inline-block; background: var(--amber); color: var(--navy); font-family: 'Syne', sans-serif; font-weight: 700; padding: 0.875rem 2rem; border-radius: 8px;">
-        Télécharger la checklist gratuite →
-      </a>
+    <div class="sidebar-card-body">
+      <ul>
+        <li>Conformité GPSR + impact douanes</li>
+        <li>Checklist express 48h</li>
+        <li>Templates réponse Amazon</li>
+        <li>Section vendeurs Suisse</li>
+        <li>Mis à jour juillet 2026</li>
+      </ul>
+      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="sidebar-btn">Obtenir le Guide — 19€ →</a>
     </div>
-
-  </article>
-
-  <aside class="article-sidebar">
-    <div class="toc-card" style="margin-bottom:1.5rem;">
-      <h4>Dans cet article</h4>
-      <ol>
-        <li><a href="#quoi">Ce qui change le 1er juillet</a></li>
-        <li><a href="#qui">Qui est concerné</a></li>
-        <li><a href="#impact">L'impact sur votre prix de revient</a></li>
-        <li><a href="#lien-gpsr">Le lien avec le GPSR</a></li>
-        <li><a href="#conclusion">Que faire maintenant</a></li>
-      </ol>
+  </div>
+  <div class="sidebar-card">
+    <div class="sidebar-card-header" style="background:var(--navy)">
+      <h3 style="color:#fff">Checklist GPSR gratuite</h3>
+      <p style="color:rgba(255,255,255,.6)">Êtes-vous en conformité ?</p>
     </div>
-
-    <div class="sidebar-card">
-      <div class="sidebar-card-header">
-        <h3>Kit de Conformité GPSR Complet</h3>
-        <p>Templates + Checklists prêts à utiliser · 27€</p>
-      </div>
-      <div class="sidebar-card-body">
-        <ul>
-          <li>Checklist Fabricant / Importateur / Distributeur</li>
-          <li>Template Déclaration de Conformité (.docx)</li>
-          <li>Structure Dossier Technique</li>
-          <li>Obligations par marketplace</li>
-          <li>Section spéciale vendeurs Suisse</li>
-        </ul>
-        <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" class="sidebar-btn">
-          Obtenir le Kit — 27€ →
-        </a>
-      </div>
+    <div class="sidebar-card-body" style="background:var(--grey-50)">
+      <ul>
+        <li>10 questions, 2 minutes</li>
+        <li>Résultat immédiat</li>
+        <li>Prochaines étapes incluses</li>
+      </ul>
+      <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" style="display:block;text-align:center;border:2px solid var(--navy);color:var(--navy);padding:.875rem;border-radius:8px;font-family:'Syne',sans-serif;font-weight:700;font-size:.9rem">Télécharger gratuitement →</a>
     </div>
-
-    <div class="sidebar-card">
-      <div class="sidebar-card-header" style="background: var(--navy);">
-        <h3 style="color:#fff;">Checklist gratuite</h3>
-        <p style="color:rgba(255,255,255,0.6);">Suis-je concerné par le GPSR ?</p>
-      </div>
-      <div class="sidebar-card-body" style="background: var(--grey-50);">
-        <ul>
-          <li>10 questions, 2 minutes</li>
-          <li>Résultat immédiat</li>
-          <li>Prochaines étapes incluses</li>
-        </ul>
-        <a href="https://compliance8.gumroad.com" target="_blank" rel="noopener" style="display:block; text-align:center; background: transparent; border: 2px solid var(--navy); color: var(--navy); padding: 0.875rem; border-radius: 8px; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem;">
-          Télécharger gratuitement →
-        </a>
-      </div>
-    </div>
-  </aside>
+  </div>
+</aside>
 
 </div>
 
